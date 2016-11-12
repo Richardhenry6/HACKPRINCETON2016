@@ -1,0 +1,16 @@
+#image {
+    width: 150px;
+    height: 150px;
+}
+
+.button-row {
+    margin-top: 1em;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.msh {
+    margin: 2em 0;
+}

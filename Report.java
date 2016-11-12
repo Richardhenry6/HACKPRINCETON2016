@@ -38,11 +38,10 @@ public class Report{
         Queue<Card> q = new Queue<Card>();
         Date date = new Date(1,2,2016);
         Date date1 = new Date(1,4,2016);
-        Card card = new Card(1,1,"host","guest",25,21,23,43,'b', date);
-        Card card1 = new Card(2,2,"host","g",26,24,22,44,'c', date1);
+        Card card = new Card(1,1,"host","guest",25,21,23,43,'b', date, null, null);
+        Card card1 = new Card(2,2,"host","g",26,24,22,44,'c', date1, null, null);
         q.enqueue(card);
         q.enqueue(card1);
         printToFile(q);
-
     }
 }

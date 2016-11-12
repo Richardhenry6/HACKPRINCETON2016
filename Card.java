@@ -27,19 +27,14 @@ public Card() {
 }
 
 //Complete Constructors
-//for all ints
-public Card(int id, int type, int host_PID, int guest_PID, int host_SSN, int guest_SSN){
-
+public Card(int id, int type, String host_Name, String guest_Name, int host_PID, int guest_PID, int host_SSN, int guest_SSN,char meal, Date date)
+{
     this.id = id;
     this.type = type;
     this.host_PID = host_PID;
     this.guest_PID = guest_PID;
     this.host_SSN = host_SSN;
     this.guest_SSN = guest_SSN;
-}
-
-//Strings, Meal, and Date constructor
-public Card(String host_Name, String guest_Name, char meal, Date date) {
     this.host_Name = host_Name;
     this.guest_Name = guest_Name;
     this.meal = meal;

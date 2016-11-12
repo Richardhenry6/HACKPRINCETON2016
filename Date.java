@@ -125,7 +125,7 @@ public class Date implements Comparable<Date> {
      *         the argument date; and a positive ineger if this date is chronologically
      *         after the argument date
      */
-    Override
+    @Override
     public int compareTo(Date that) {
         if (this.year  < that.year)  return -1;
         if (this.year  > that.year)  return +1;
@@ -141,7 +141,7 @@ public class Date implements Comparable<Date> {
      *
      * return the string representation in the format MM/DD/YYYY
      */
-    Override
+    @Override
     public String toString() { return month + "/" + day + "/" + year; }
 
     /**
@@ -150,7 +150,7 @@ public class Date implements Comparable<Date> {
      * param  other the other date
      * return {true} if this date equals {other}; {false} otherwise
      */
-    Override
+    @Override
     public boolean equals(Object other) {
         if (other == this) return true;
         if (other == null) return false;
@@ -164,7 +164,7 @@ public class Date implements Comparable<Date> {
      *
      * return an integer hash code for this date
      */
-    Override
+    @Override
     public int hashCode() {
         int hash = 17;
         hash = 31*hash + month;

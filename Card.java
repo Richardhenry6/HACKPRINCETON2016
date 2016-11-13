@@ -26,8 +26,8 @@ public Card() {
     int club_SSN = 0;
     char meal = '\0';
     Date date = null;
-    String = null;
-    String = null;
+    String dining_location = null;
+    String club_location = null;
 }
 
 //Complete Constructors
@@ -72,8 +72,8 @@ public void set_dining_Name(String name) { dining_Name = name; }
 public void set_club_Name(String name) { club_Name = name; }
 public void set_date(Date date) { this.date = date; }
 public void set_meal(char meal) { this.meal = meal; }
-public void get_dining_location(){ this.dining_location = dining_location; }
-public void get_club_location(){ this.club_location = club_location; }
+public void set_dining_location(){ this.dining_location = dining_location; }
+public void set_club_location(){ this.club_location = club_location; }
 
 //Sorting
 /*Compares this card to the specified date (work in progress...)
